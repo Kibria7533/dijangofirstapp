@@ -1,0 +1,15 @@
+{%extends 'main.html'%}
+
+{%block mainbody%}
+<div class="main">
+
+    {% for data in dataset %}.
+
+    {{ data.name }}<br/>
+    {{ data.father_name }}<br/>
+    <hr/>
+
+    {% endfor %}
+
+</div>
+{%endblock%}
